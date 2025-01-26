@@ -9,8 +9,22 @@ class Solution {
      */
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
+        // dp[i][j] -> stores minimum path sum from (i, j) to last row;
         Integer[][] dp = new Integer[n][n];
-        return f(0, 0, triangle, dp);
+
+        // base case initialization
+        for (int i = 0; i < n; i++) {
+            dp[n - 1][i] = triangle.get(n - 1).get(i);
+        }
+
+        for (int i = n - 2; i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                int d = dp[i + 1][j];
+                int dr = dp[i + 1][j + 1];
+                dp[i][j] = triangle.get(i).get(j) + Math.min(d, dr);
+            }
+        }
+        return dp[0][0];
     }
 
     // f(i, j) -> return min path sum from (i, j) to last row
