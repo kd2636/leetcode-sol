@@ -10,23 +10,21 @@ class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int n = triangle.size();
         // dp[i][j] -> stores minimum path sum from (i, j) to last row;
-        int[] next = new int[n];
+        int[] dp = new int[n];
 
         // base case initialization
         for (int i = 0; i < n; i++) {
-            next[i] = triangle.get(n - 1).get(i);
+            dp[i] = triangle.get(n - 1).get(i);
         }
 
         for (int i = n - 2; i >= 0; i--) {
-            int[] curr = new int[i + 1];
             for (int j = 0; j <= i; j++) {
-                int d = next[j];
-                int dr = next[j + 1];
-                curr[j] = triangle.get(i).get(j) + Math.min(d, dr);
+                int d = dp[j];
+                int dr = dp[j + 1];
+                dp[j] = triangle.get(i).get(j) + Math.min(d, dr);
             }
-            next = curr;
         }
-        return next[0];
+        return dp[0];
     }
 
     // f(i, j) -> return min path sum from (i, j) to last row
