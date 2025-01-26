@@ -1,25 +1,24 @@
 class Solution {
     public int uniquePaths(int m, int n) {
         //dp[i][j] -> returns count of unique paths from (0,0) to (i,j)
-        Integer[][] dp = new Integer[m][n];
+        int[] prev = new int[n];
         for (int i = 0; i < m; i++) {
+            int[] curr = new int[n];
             for (int j = 0; j < n; j++) {
                 if (i == 0 && j == 0) {
-                    dp[i][j] = 1;
+                    curr[j] = 1;
                 } else{
-                    int up = 0;
+                    int up = prev[j];
                     int left = 0;
-                    if (i - 1 >= 0) {
-                        up = dp[i - 1][j];
-                    }
                     if (j - 1 >= 0) {
-                        left = dp[i][j - 1];
+                        left = curr[j - 1];
                     }
-                    dp[i][j] = up + left;
+                    curr[j] = up + left;
                 }
             }
+            prev = curr;
         }
-        return dp[m - 1][n - 1];
+        return prev[n - 1];
         
     }
 }
