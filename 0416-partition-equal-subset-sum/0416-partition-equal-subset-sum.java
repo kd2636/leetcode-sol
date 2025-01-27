@@ -17,26 +17,28 @@ class Solution {
     private boolean isSubsetSumTarget(int[] nums, int k) {
         int n = nums.length;
         // dp[i][j] -> store if there is a subset with sum j from 0 to i
-        boolean[][] dp = new boolean[n][k + 1];
+        boolean[] prev = new boolean[k + 1];
         if (nums[0] <= k) {
-            dp[0][nums[0]] = true;
+            prev[nums[0]] = true;
         }
 
         for (int i = 1; i < n; i++) {
-            dp[i][0] = true;
+            boolean[] curr = new boolean[k + 1];
+            curr[0] = true;
             for (int target = 1; target <= k; target++) {
                 // not take
-                if (dp[i - 1][target]) {
-                    dp[i][target] = true;
-                } else if (nums[i] <= target && dp[i - 1][target - nums[i]]) {
-                    dp[i][target] = dp[i - 1][target - nums[i]];
+                if (prev[target]) {
+                    curr[target] = true;
+                } else if (nums[i] <= target && prev[target - nums[i]]) {
+                    curr[target] = prev[target - nums[i]];
                 } else {
-                    dp[i][target] = false;
+                    curr[target] = false;
                 }
             }
+            prev = curr;
         }
 
-        return dp[n - 1][k];
+        return prev[k];
         
     }
 }
