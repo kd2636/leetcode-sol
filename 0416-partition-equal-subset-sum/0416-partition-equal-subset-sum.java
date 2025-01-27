@@ -18,12 +18,12 @@ class Solution {
         int n = nums.length;
         // dp[i][j] -> store if there is a subset with sum j from 0 to i
         boolean[] prev = new boolean[k + 1];
+        boolean[] curr = new boolean[k + 1];
         if (nums[0] <= k) {
             prev[nums[0]] = true;
         }
 
         for (int i = 1; i < n; i++) {
-            boolean[] curr = new boolean[k + 1];
             curr[0] = true;
             for (int target = 1; target <= k; target++) {
                 // not take
@@ -35,7 +35,10 @@ class Solution {
                     curr[target] = false;
                 }
             }
+            boolean[] temp = null;
+            temp = prev;
             prev = curr;
+            curr = temp;
         }
 
         return prev[k];
