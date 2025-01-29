@@ -16,18 +16,18 @@ class Solution {
 
                 int p = -1;
                 if (coins[i] <= j) {
-                    p = 1 + dp[i][j - coins[i]];
+                    p = dp[i][j - coins[i]];
                 }
 
                 int ans = 0;
-                if (np == -1 && (p == 0 || p == -1)) {
+                if (np == -1 && p == -1) {
                     ans = -1;
                 } else if (np == -1) {
-                    ans = p;
-                } else if (p == 0 || p == -1) {
+                    ans = 1 + p;
+                } else if (p == -1) {
                     ans = np;
                 } else {
-                    ans = Math.min(p, np);
+                    ans = Math.min(1 + p, np);
                 }
 
                 dp[i][j] = ans;
