@@ -17,28 +17,28 @@ class Solution {
 
         // tabulation soln - 
 
-        int[][] dp = new int[n][targetSum + 1];
+        int[] dp = new int[targetSum + 1];
         if (nums[0] == 0) {
-            dp[0][0] = 2;
+            dp[0] = 2;
         } else {
-            dp[0][0] = 1;
+            dp[0] = 1;
         }
         if (nums[0] != 0 && nums[0] <= targetSum) {
-            dp[0][nums[0]] = 1;
+            dp[nums[0]] = 1;
         }
 
         for (int i = 1; i < n; i++) {
-            for (int j = 0; j <= targetSum; j++) {
-                int nt = dp[i - 1][j];
+            for (int j = targetSum; j >= 0; j--) {
+                int nt = dp[j];
 
                 int t = 0;
                 if (nums[i] <= j) {
-                    t = dp[i - 1][j - nums[i]];
+                    t = dp[j - nums[i]];
                 }
-                dp[i][j] = nt + t;
+                dp[j] = nt + t;
             }
         }
-        return dp[n - 1][targetSum];
+        return dp[targetSum];
     }
 
 }
