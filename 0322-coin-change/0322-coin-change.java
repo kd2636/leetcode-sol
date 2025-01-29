@@ -1,22 +1,21 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        // dp[i][amt] -> stores min number of coins required to get amt from 0 to i.
-        int[][] dp = new int[n][amount + 1];
-        dp[0][0] = 0;
+        
+        int[] dp = new int[amount + 1];
 
         for (int i = 0; i <= amount; i++) {
-            if (i % coins[0] == 0) dp[0][i] = i / coins[0];
-            else dp[0][i] = -1;
+            if (i % coins[0] == 0) dp[i] = i / coins[0];
+            else dp[i] = -1;
         }
 
         for (int i = 1; i < n; i++) {
             for (int j = 0; j <= amount; j++) {
-                int np = dp[i - 1][j];
+                int np = dp[j];
 
                 int p = -1;
                 if (coins[i] <= j) {
-                    p = dp[i][j - coins[i]];
+                    p = dp[j - coins[i]];
                 }
 
                 int ans = 0;
@@ -30,11 +29,11 @@ class Solution {
                     ans = Math.min(1 + p, np);
                 }
 
-                dp[i][j] = ans;
+                dp[j] = ans;
             }
         }
 
-        return dp[n - 1][amount];
+        return dp[amount];
     }
 
 }
