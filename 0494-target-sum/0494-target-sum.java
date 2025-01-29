@@ -14,28 +14,31 @@ class Solution {
         
         if ((d + sum) % 2 != 0) return 0;
         int targetSum = (d + sum) / 2;
-        Integer[][] dp = new Integer[n][targetSum + 1];
-        return f(n - 1, targetSum, nums, dp);
-    }
 
-    // f(i, target) -> return count of subsets from 0 to i with sum = target
-    private int f(int i, int target, int[] nums, Integer[][] dp) {
-        if (i == 0) {
-            if (target == 0 && nums[0] == target) return 2;
-            if (target == 0) return 1;
-            if (target == nums[i]) return 1;
-            return 0;
+        // tabulation soln - 
+
+        int[][] dp = new int[n][targetSum + 1];
+        if (nums[0] == 0) {
+            dp[0][0] = 2;
+        } else {
+            dp[0][0] = 1;
+        }
+        if (nums[0] != 0 && nums[0] <= targetSum) {
+            dp[0][nums[0]] = 1;
         }
 
-        if (dp[i][target] != null) return dp[i][target];
+        for (int i = 1; i < n; i++) {
+            for (int j = 0; j <= targetSum; j++) {
+                int nt = dp[i - 1][j];
 
-        int nt = f(i - 1, target, nums, dp);
-
-        int t = 0;
-        if (nums[i] <= target) {
-            t = f(i - 1, target - nums[i], nums, dp);
+                int t = 0;
+                if (nums[i] <= j) {
+                    t = dp[i - 1][j - nums[i]];
+                }
+                dp[i][j] = nt + t;
+            }
         }
-
-        return dp[i][target] = nt + t;
+        return dp[n - 1][targetSum];
     }
+
 }
