@@ -9,6 +9,7 @@
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kd2636/leetcode-sol/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 ## Dynamic Programming
 |  |
@@ -20,6 +21,7 @@
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kd2636/leetcode-sol/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 ## Math
 |  |
@@ -39,4 +41,8 @@
 |  |
 | ------- |
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
