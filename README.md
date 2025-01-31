@@ -23,6 +23,7 @@
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/kd2636/leetcode-sol/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
+| [0516-longest-palindromic-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0516-longest-palindromic-subsequence) |
 | [0518-coin-change-ii](https://github.com/kd2636/leetcode-sol/tree/master/0518-coin-change-ii) |
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 | [1250-longest-common-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/1250-longest-common-subsequence) |
@@ -51,5 +52,6 @@
 ## String
 |  |
 | ------- |
+| [0516-longest-palindromic-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0516-longest-palindromic-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/1250-longest-common-subsequence) |
 <!---LeetCode Topics End-->
