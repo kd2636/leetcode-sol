@@ -3,27 +3,33 @@ class Solution {
         int n = word1.length();
         int m = word2.length();
 
-        Integer[][] dp = new Integer[n][m];
-        return f(n - 1, m - 1, word1, word2, dp);
-    }
+        int[] prev = new int[m + 1];
+        int[] curr = new int[m + 1];
 
-    // f(i, j) -> return min operation for coverting word1(0 to i) to word2(0 to j)
-    private int f(int i, int j, String word1, String word2, Integer[][] dp) {
 
-        if (j < 0 || i < 0) {
-            return 1 + Math.max(i, j);
+        for (int j = 1; j <= m; j++) {
+            prev[j] = j;
         }
 
-        if (dp[i][j] != null) return dp[i][j];
+        for (int i = 1; i <= n; i++) {
+            curr[0] = i;
+            for (int j = 1; j <= m; j++) {
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    curr[j] = prev[j - 1];
+                } else {
+                    int insertion = curr[j - 1];
+                    int replacement = prev[j - 1];
+                    int deletion = prev[j];
 
-        if (word1.charAt(i) == word2.charAt(j)) {
-            return dp[i][j] = f(i - 1, j - 1, word1, word2, dp);
-        } else {
-            int insertion = f(i, j - 1, word1, word2, dp);
-            int replacement = f(i - 1, j - 1, word1, word2, dp);
-            int deletion = f(i - 1, j, word1, word2, dp);
-
-            return dp[i][j] = 1 + Math.min(insertion, Math.min(replacement, deletion));
+                    curr[j] = 1 + Math.min(insertion, Math.min(replacement, deletion));
+                }
+            }
+            int[] temp = prev;
+            prev = curr;
+            curr = temp;
         }
+
+        return prev[m];
     }
+
 }
