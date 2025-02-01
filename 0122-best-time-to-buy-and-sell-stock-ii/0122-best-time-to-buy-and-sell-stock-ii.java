@@ -1,27 +1,22 @@
 class Solution {
     public int maxProfit(int[] prices) {
         int n = prices.length;
-        Integer[][] dp = new Integer[n][2];
-        return f(0, 0, prices, dp);
-    }
-
-    // f(i, j) -> return max profit starting from i -> n - 1 with exisitng condition of already bought something or not
-    // j -> 1 (already bought, can sell only)
-    // j -> 0 (can buy)
-    private int f(int i, int j, int[] prices, Integer[][] dp) {
-        if (i == prices.length) {
-            return 0;
+        int[][] dp = new int[n + 1][2];
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = 0; j <= 1; j++) {
+                if (j == 0) {
+                    int a = (-1 * prices[i]) + dp[i + 1][1];
+                    int b = dp[i + 1][0];
+                    dp[i][j] = Math.max(a, b);
+                } else {
+                    int a = prices[i] + dp[i + 1][0];
+                    int b = dp[i + 1][1];
+                    dp[i][j] = Math.max(a, b);
+                }
+            }
         }
 
-        if (dp[i][j] != null) return dp[i][j];
-        if (j == 0) {
-            int a = (-1 * prices[i]) + f(i + 1, 1, prices, dp);
-            int b = f(i + 1, 0, prices, dp);
-            return dp[i][j] = Math.max(a, b);
-        } else {
-            int a = prices[i] + f(i + 1, 0, prices, dp);
-            int b = f(i + 1, 1, prices, dp);
-            return dp[i][j] = Math.max(a, b);
-        }
+        return dp[0][0];
     }
+
 }
