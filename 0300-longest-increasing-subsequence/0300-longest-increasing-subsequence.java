@@ -1,24 +1,26 @@
 class Solution {
     public int lengthOfLIS(int[] nums) {
         int n = nums.length;
-        // special solution, useful for backtrack to get LIS
+        // binary search
 
-        // dp[i] -> store LIS for LIS ending at i.
-        int[] dp = new int[n];
-        for (int i = 0; i < n; i++) {
-            dp[i] = 1;
-        }
-        int max = 1;
+
+        List<Integer> temp = new ArrayList<>();
+        temp.add(nums[0]);
+
         for (int i = 1; i < n; i++) {
-            for (int j = 0; j < i; j++) {
-                if (nums[j] < nums[i]) {
-                    dp[i] = Math.max(dp[i], 1 + dp[j]);
-                }
-            }
-            max = Math.max(max, dp[i]);
+            int binaryIndex = Collections.binarySearch(temp, nums[i]);
+            if (binaryIndex < 0) {
+                binaryIndex = -binaryIndex - 1;
+                if (binaryIndex == temp.size()) {
+                    temp.add(nums[i]);
+                } else {
+                    temp.set(binaryIndex, nums[i]);
+                }                
+            } 
         }
 
-        return max;
+        return temp.size();
+
     }
 
 }
