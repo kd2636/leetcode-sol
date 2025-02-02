@@ -1,23 +1,22 @@
 class Solution {
     public int maxProfit(int[] prices, int fee) {
         int n = prices.length;
-        Integer[][] dp = new Integer[n][2];
-        return f(0, 0, prices, fee, dp);
-    }
+        int[][] dp = new int[n + 1][2];
 
-    private int f(int i, int j, int[] prices, int fee, Integer[][] dp) {
-        if (i == prices.length) return 0;
-
-        if (dp[i][j] != null) return dp[i][j];
-
-        if (j == 0) {
-            int a = -prices[i] - fee + f(i + 1, 1, prices, fee, dp);
-            int b = f(i + 1, 0, prices, fee, dp);
-            return dp[i][j] = Math.max(a, b);
-        } else {
-            int a = prices[i] + f(i + 1, 0, prices, fee, dp);
-            int b = f(i + 1, 1, prices, fee, dp);
-            return dp[i][j] = Math.max(a, b);
+        for (int i = n - 1; i >= 0; i--) {
+            for (int j = 0; j < 2; j++) {
+                if (j == 0) {
+                    int a = -prices[i] - fee + dp[i + 1][1];
+                    int b = dp[i + 1][0];
+                    dp[i][j] = Math.max(a, b);
+                } else {
+                    int a = prices[i] + dp[i + 1][0];
+                    int b = dp[i + 1][1];
+                    dp[i][j] = Math.max(a, b);
+                }
+            }
         }
+        return dp[0][0];
     }
+
 }
