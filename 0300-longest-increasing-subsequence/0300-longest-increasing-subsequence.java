@@ -4,7 +4,7 @@ class Solution {
         int[][] dp = new int[n + 1][n + 1];
 
         for (int i = n - 1; i >= 0; i--) {
-            for (int prev_i = 0; prev_i <= i; prev_i++) {
+            for (int prev_i = 0; prev_i <= n; prev_i++) {
                 int nt = dp[i + 1][prev_i];
 
                 int t = 0;
