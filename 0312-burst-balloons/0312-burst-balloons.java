@@ -6,24 +6,23 @@ class Solution {
             list.add(nums[i]);
         }
         list.add(1);
-        Integer[][] dp = new Integer[nums.length + 1][nums.length + 1];
+        int[][] dp = new int[nums.length + 2][nums.length + 2];
 
-        return f(1, nums.length, list, dp);
-    }
-
-    private int f(int i, int j, List<Integer> nums, Integer[][] dp) {
-        if (i > j) return 0;
-
-        if (dp[i][j] != null) return dp[i][j];
-
-        int max = 0;
-        for (int k = i; k <= j; k++) {
-            int left = f(i, k - 1, nums, dp);
-            int right = f(k + 1, j, nums, dp);
-            int curr = nums.get(i - 1) * nums.get(k) * nums.get(j + 1);
-            int total = curr + left + right;
-            max = Math.max(max, total);
+        for (int i = nums.length; i >= 1; i--) {
+            for (int j = i; j <= nums.length; j++) {
+                int max = 0;
+                for (int k = i; k <= j; k++) {
+                    int left = dp[i][k - 1];
+                    int right = dp[k + 1][j];
+                    int curr = list.get(i - 1) * list.get(k) * list.get(j + 1);
+                    int total = curr + left + right;
+                    max = Math.max(max, total);
+                }
+                dp[i][j] = max;
+            }
         }
-        return dp[i][j] = max;
+
+        return dp[1][nums.length];
     }
+
 }
