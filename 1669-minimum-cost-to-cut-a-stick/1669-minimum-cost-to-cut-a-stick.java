@@ -8,8 +8,21 @@ class Solution {
         c.add(n);
         Collections.sort(c);
 
-        Integer[][] dp = new Integer[c.size() - 1][c.size() - 1];
-        return f(1, c.size() - 2, c, dp);
+        int[][] dp = new int[c.size()][c.size()];
+
+        for (int i = c.size() - 2; i >= 1; i--) {
+            for (int j = i; j <= c.size() - 2; j++) {
+                int min = Integer.MAX_VALUE;
+                for (int k = i; k <= j; k++) {
+                    int left = dp[i][k - 1];
+                    int right = dp[k + 1][j];
+                    int total = left + right + (c.get(j + 1) - c.get(i - 1));
+                    min = Math.min(min, total);
+                }
+                dp[i][j] = min;
+            }
+        }
+        return dp[1][c.size() - 2];
     }
 
     private int f(int i, int j, List<Integer> cuts, Integer[][] dp) {
