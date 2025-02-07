@@ -90,6 +90,7 @@
 | [0583-delete-operation-for-two-strings](https://github.com/kd2636/leetcode-sol/tree/master/0583-delete-operation-for-two-strings) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/kd2636/leetcode-sol/tree/master/1170-shortest-common-supersequence) |
+| [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kd2636/leetcode-sol/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 ## Greedy
@@ -102,6 +103,7 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/kd2636/leetcode-sol/tree/master/0044-wildcard-matching) |
+| [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
 ## Binary Search
 |  |
 | ------- |
@@ -128,4 +130,8 @@
 |  |
 | ------- |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0673-number-of-longest-increasing-subsequence) |
+## Stack
+|  |
+| ------- |
+| [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
 <!---LeetCode Topics End-->
