@@ -24,6 +24,7 @@
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 | [1121-partition-array-for-maximum-sum](https://github.com/kd2636/leetcode-sol/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Dynamic Programming
 |  |
@@ -58,6 +59,7 @@
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1170-shortest-common-supersequence](https://github.com/kd2636/leetcode-sol/tree/master/1170-shortest-common-supersequence) |
 | [1250-longest-common-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/1250-longest-common-subsequence) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kd2636/leetcode-sol/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Math
@@ -75,6 +77,7 @@
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
+| [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Breadth-First Search
 |  |
 | ------- |
