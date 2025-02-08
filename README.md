@@ -29,6 +29,7 @@
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -152,6 +153,7 @@
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/kd2636/leetcode-sol/tree/master/0943-sum-of-subarray-minimums) |
 | [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
+| [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 ## Design
 |  |
 | ------- |
@@ -169,4 +171,5 @@
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/kd2636/leetcode-sol/tree/master/0943-sum-of-subarray-minimums) |
+| [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
