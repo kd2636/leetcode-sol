@@ -6,6 +6,7 @@
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0120-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kd2636/leetcode-sol/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -40,6 +41,7 @@
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0072-edit-distance](https://github.com/kd2636/leetcode-sol/tree/master/0072-edit-distance) |
+| [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/kd2636/leetcode-sol/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kd2636/leetcode-sol/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -83,6 +85,7 @@
 | ------- |
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
+| [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 ## Breadth-First Search
@@ -149,6 +152,7 @@
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0155-min-stack](https://github.com/kd2636/leetcode-sol/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/kd2636/leetcode-sol/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/kd2636/leetcode-sol/tree/master/0232-implement-queue-using-stacks) |
@@ -173,6 +177,7 @@
 |  |
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
+| [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/kd2636/leetcode-sol/tree/master/0943-sum-of-subarray-minimums) |
