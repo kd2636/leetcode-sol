@@ -103,6 +103,7 @@
 | [0072-edit-distance](https://github.com/kd2636/leetcode-sol/tree/master/0072-edit-distance) |
 | [0115-distinct-subsequences](https://github.com/kd2636/leetcode-sol/tree/master/0115-distinct-subsequences) |
 | [0132-palindrome-partitioning-ii](https://github.com/kd2636/leetcode-sol/tree/master/0132-palindrome-partitioning-ii) |
+| [0402-remove-k-digits](https://github.com/kd2636/leetcode-sol/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/kd2636/leetcode-sol/tree/master/0583-delete-operation-for-two-strings) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
@@ -115,6 +116,7 @@
 | ------- |
 | [0044-wildcard-matching](https://github.com/kd2636/leetcode-sol/tree/master/0044-wildcard-matching) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0402-remove-k-digits](https://github.com/kd2636/leetcode-sol/tree/master/0402-remove-k-digits) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/kd2636/leetcode-sol/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 ## Recursion
 |  |
@@ -156,6 +158,7 @@
 | [0155-min-stack](https://github.com/kd2636/leetcode-sol/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/kd2636/leetcode-sol/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/kd2636/leetcode-sol/tree/master/0232-implement-queue-using-stacks) |
+| [0402-remove-k-digits](https://github.com/kd2636/leetcode-sol/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0735-asteroid-collision](https://github.com/kd2636/leetcode-sol/tree/master/0735-asteroid-collision) |
@@ -178,6 +181,7 @@
 | ------- |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
+| [0402-remove-k-digits](https://github.com/kd2636/leetcode-sol/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0943-sum-of-subarray-minimums](https://github.com/kd2636/leetcode-sol/tree/master/0943-sum-of-subarray-minimums) |
