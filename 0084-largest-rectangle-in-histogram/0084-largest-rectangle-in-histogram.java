@@ -1,47 +1,33 @@
 class Solution {
     public int largestRectangleArea(int[] heights) {
-        int[] nse = getNSE(heights);
-        int[] pse = getPSE(heights);
-
         int n = heights.length;
+        Stack<Integer> stack = new Stack<>();
         int maxArea = 0;
+        
         for (int i = 0; i < n; i++) {
-            int area = heights[i] * (nse[i] - pse[i] - 1);
+            while(!stack.isEmpty() && heights[stack.peek()] > heights[i]) {
+                int ele = stack.pop();
+                if (heights[ele] > heights[i]) {
+                    // got nse
+                    int nse = i;
+                    int pse = stack.isEmpty() ? -1 : stack.peek();
+                    int area = heights[ele] * (nse - pse - 1);
+                    maxArea = Math.max(maxArea, area);
+                }
+            }
+            stack.push(i);
+        }
+
+        while (!stack.isEmpty()) {
+            int ele = stack.pop();
+            int nse =  n;
+            int pse = stack.isEmpty() ? -1 : stack.peek();
+            int area = heights[ele] * (nse - pse - 1);
             maxArea = Math.max(maxArea, area);
         }
+
         return maxArea;
     }
 
-    private int[] getNSE(int[] nums) {
-        int n = nums.length;
-        int[] nse = new int[n];
-        Stack<Integer> stack = new Stack<>();
-
-        for(int i = n - 1; i >= 0; i--) {
-            while (!stack.isEmpty() && nums[stack.peek()] >= nums[i]) {
-                stack.pop();
-            }
-            nse[i] = stack.isEmpty() ? n : stack.peek();
-            stack.push(i);
-        }
-
-        return nse;
-    }
-
-
-    private int[] getPSE(int[] nums) {
-        int n = nums.length;
-        int[] pse = new int[n];
-        Stack<Integer> stack = new Stack<>();
-
-        for (int i = 0; i < n; i++) {
-            while (!stack.isEmpty() && nums[stack.peek()] >= nums[i]) {
-                stack.pop();
-            }
-            pse[i] = stack.isEmpty() ? -1 : stack.peek();
-            stack.push(i);
-        }
-
-        return pse;
-    }
+    
 }
