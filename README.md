@@ -32,6 +32,7 @@
 | [1121-partition-array-for-maximum-sum](https://github.com/kd2636/leetcode-sol/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
 | [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 ## Dynamic Programming
@@ -207,6 +208,7 @@
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/kd2636/leetcode-sol/tree/master/0239-sliding-window-maximum) |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -225,4 +227,8 @@
 | ------- |
 | [0146-lru-cache](https://github.com/kd2636/leetcode-sol/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/kd2636/leetcode-sol/tree/master/0460-lfu-cache) |
+## Prefix Sum
+|  |
+| ------- |
+| [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
