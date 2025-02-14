@@ -7,13 +7,11 @@ class Solution {
         int n = s.length();
 
         while (r < n) {
-            map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) + 1);
-
-            while (map.get(s.charAt(r)) > 1) {
-                map.put(s.charAt(l), map.getOrDefault(s.charAt(l), 0) - 1);
-                l++;
+            if (map.getOrDefault(s.charAt(r), -1) >= l) {
+                l = map.getOrDefault(s.charAt(r), -1) + 1;
             }
 
+            map.put(s.charAt(r), r);
             maxLength = Math.max(maxLength, r - l + 1);
             r++;
         }
