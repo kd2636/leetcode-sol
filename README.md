@@ -40,6 +40,7 @@
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/kd2636/leetcode-sol/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 ## Dynamic Programming
 |  |
