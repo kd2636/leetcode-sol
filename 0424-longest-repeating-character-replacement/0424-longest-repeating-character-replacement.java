@@ -10,8 +10,7 @@ class Solution {
             map.put(s.charAt(r), map.getOrDefault(s.charAt(r), 0) + 1);
             maxF = Math.max(maxF, map.get(s.charAt(r)));
 
-            while (r - l + 1 - maxF > k) {
-                //System.out.println(l);
+            if (r - l + 1 - maxF > k) {
                 map.put(s.charAt(l), map.getOrDefault(s.charAt(l), 0) - 1);
                 l++;
                 for (Character c : map.keySet()) {
