@@ -24,6 +24,7 @@
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/kd2636/leetcode-sol/tree/master/0518-coin-change-ii) |
+| [0560-subarray-sum-equals-k](https://github.com/kd2636/leetcode-sol/tree/master/0560-subarray-sum-equals-k) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/kd2636/leetcode-sol/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0735-asteroid-collision](https://github.com/kd2636/leetcode-sol/tree/master/0735-asteroid-collision) |
@@ -149,6 +150,7 @@
 | [0424-longest-repeating-character-replacement](https://github.com/kd2636/leetcode-sol/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/kd2636/leetcode-sol/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
+| [0560-subarray-sum-equals-k](https://github.com/kd2636/leetcode-sol/tree/master/0560-subarray-sum-equals-k) |
 | [0940-fruit-into-baskets](https://github.com/kd2636/leetcode-sol/tree/master/0940-fruit-into-baskets) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kd2636/leetcode-sol/tree/master/1460-number-of-substrings-containing-all-three-characters) |
@@ -245,6 +247,7 @@
 ## Prefix Sum
 |  |
 | ------- |
+| [0560-subarray-sum-equals-k](https://github.com/kd2636/leetcode-sol/tree/master/0560-subarray-sum-equals-k) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
