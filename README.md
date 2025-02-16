@@ -116,6 +116,7 @@
 | [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
 | [1250-longest-common-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/1250-longest-common-subsequence) |
 | [1437-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/kd2636/leetcode-sol/tree/master/1437-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/kd2636/leetcode-sol/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Greedy
 |  |
 | ------- |
@@ -148,6 +149,7 @@
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0940-fruit-into-baskets](https://github.com/kd2636/leetcode-sol/tree/master/0940-fruit-into-baskets) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/kd2636/leetcode-sol/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Two Pointers
 |  |
 | ------- |
@@ -217,6 +219,7 @@
 | [0239-sliding-window-maximum](https://github.com/kd2636/leetcode-sol/tree/master/0239-sliding-window-maximum) |
 | [0940-fruit-into-baskets](https://github.com/kd2636/leetcode-sol/tree/master/0940-fruit-into-baskets) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
+| [1460-number-of-substrings-containing-all-three-characters](https://github.com/kd2636/leetcode-sol/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Heap (Priority Queue)
 |  |
