@@ -35,6 +35,7 @@
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
 | [1121-partition-array-for-maximum-sum](https://github.com/kd2636/leetcode-sol/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -82,6 +83,7 @@
 | ------- |
 | [0062-unique-paths](https://github.com/kd2636/leetcode-sol/tree/master/0062-unique-paths) |
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
 ## Combinatorics
 |  |
 | ------- |
@@ -155,6 +157,7 @@
 | [0940-fruit-into-baskets](https://github.com/kd2636/leetcode-sol/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/kd2636/leetcode-sol/tree/master/0966-binary-subarrays-with-sum) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kd2636/leetcode-sol/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 ## Two Pointers
 |  |
@@ -227,6 +230,7 @@
 | [0940-fruit-into-baskets](https://github.com/kd2636/leetcode-sol/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/kd2636/leetcode-sol/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
 | [1460-number-of-substrings-containing-all-three-characters](https://github.com/kd2636/leetcode-sol/tree/master/1460-number-of-substrings-containing-all-three-characters) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 ## Heap (Priority Queue)
@@ -253,5 +257,6 @@
 | [0560-subarray-sum-equals-k](https://github.com/kd2636/leetcode-sol/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/kd2636/leetcode-sol/tree/master/0966-binary-subarrays-with-sum) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
+| [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/kd2636/leetcode-sol/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 <!---LeetCode Topics End-->
