@@ -3,6 +3,7 @@
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
@@ -167,6 +168,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 ## Binary Indexed Tree
 |  |
