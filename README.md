@@ -16,6 +16,7 @@
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
 | [0239-sliding-window-maximum](https://github.com/kd2636/leetcode-sol/tree/master/0239-sliding-window-maximum) |
+| [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0283-move-zeroes) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/kd2636/leetcode-sol/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
@@ -88,6 +89,7 @@
 | ------- |
 | [0062-unique-paths](https://github.com/kd2636/leetcode-sol/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
+| [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
 ## Combinatorics
@@ -144,11 +146,13 @@
 ## Binary Search
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
 ## Sorting
 |  |
 | ------- |
+| [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
@@ -158,6 +162,7 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/kd2636/leetcode-sol/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0076-minimum-window-substring](https://github.com/kd2636/leetcode-sol/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/kd2636/leetcode-sol/tree/master/0146-lru-cache) |
+| [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/kd2636/leetcode-sol/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/kd2636/leetcode-sol/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
@@ -277,4 +282,8 @@
 |  |
 | ------- |
 | [1034-subarrays-with-k-different-integers](https://github.com/kd2636/leetcode-sol/tree/master/1034-subarrays-with-k-different-integers) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 <!---LeetCode Topics End-->
