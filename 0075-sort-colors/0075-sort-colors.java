@@ -1,28 +1,38 @@
 class Solution {
     public void sortColors(int[] nums) {
+        // DNF (Dutch National Flag) sort
+
+
+        // 0 -> 0...low-1
+        // 1 -> low...mid-1
+        // unsorted -> mid....high
+        // 2 -> high+1...n-1
+
         int n = nums.length;
-        int count0 = 0, count1 = 0, count2 = 0;
+        int low = 0;
+        int mid = 0;
+        int high = n - 1;
 
-        for (int num : nums) {
-            if (num == 0) count0++;
-            if (num == 1) count1++;
-            if (num == 2) count2++;
-        }
 
-        int i = 0;
-
-        while (count1 > 0 || count2 > 0 || count0 > 0) {
-            if (count0 > 0) {
-                nums[i] = 0;
-                count0--;
-            } else if (count1 > 0) {
-                nums[i] = 1;
-                count1--;
-            } else if (count2 > 0) {
-                nums[i] = 2;
-                count2--;
+        while (mid <= high) {
+            if (nums[mid] == 0) {
+                swap(nums, low, mid);
+                low++;
+                mid++;
+            } else if (nums[mid] == 1) {
+                mid++;
+            } else {
+                swap(nums, mid, high);
+                high--;
             }
-            i++;
         }
+
+    }
+
+
+    private void swap(int[] nums, int i, int j) {
+        int temp = nums[i];
+        nums[i] = nums[j];
+        nums[j] = temp;
     }
 }
