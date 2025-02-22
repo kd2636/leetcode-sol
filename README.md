@@ -9,6 +9,7 @@
 | [0053-maximum-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/kd2636/leetcode-sol/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
@@ -109,6 +110,7 @@
 | ------- |
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
+| [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/kd2636/leetcode-sol/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -171,6 +173,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/kd2636/leetcode-sol/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/kd2636/leetcode-sol/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/kd2636/leetcode-sol/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/kd2636/leetcode-sol/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
