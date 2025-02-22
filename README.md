@@ -6,6 +6,7 @@
 | [0001-two-sum](https://github.com/kd2636/leetcode-sol/tree/master/0001-two-sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/kd2636/leetcode-sol/tree/master/0031-next-permutation) |
+| [0048-rotate-image](https://github.com/kd2636/leetcode-sol/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0053-maximum-subarray) |
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
@@ -96,6 +97,7 @@
 ## Math
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/kd2636/leetcode-sol/tree/master/0048-rotate-image) |
 | [0062-unique-paths](https://github.com/kd2636/leetcode-sol/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
@@ -108,6 +110,7 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/kd2636/leetcode-sol/tree/master/0048-rotate-image) |
 | [0063-unique-paths-ii](https://github.com/kd2636/leetcode-sol/tree/master/0063-unique-paths-ii) |
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
