@@ -15,6 +15,7 @@
 | [0075-sort-colors](https://github.com/kd2636/leetcode-sol/tree/master/0075-sort-colors) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
+| [0118-pascals-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kd2636/leetcode-sol/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
@@ -67,6 +68,7 @@
 | [0072-edit-distance](https://github.com/kd2636/leetcode-sol/tree/master/0072-edit-distance) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0115-distinct-subsequences](https://github.com/kd2636/leetcode-sol/tree/master/0115-distinct-subsequences) |
+| [0118-pascals-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kd2636/leetcode-sol/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
