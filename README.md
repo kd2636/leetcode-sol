@@ -24,6 +24,7 @@
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
+| [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
 | [0239-sliding-window-maximum](https://github.com/kd2636/leetcode-sol/tree/master/0239-sliding-window-maximum) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0283-move-zeroes) |
@@ -171,6 +172,7 @@
 | ------- |
 | [0075-sort-colors](https://github.com/kd2636/leetcode-sol/tree/master/0075-sort-colors) |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
@@ -184,6 +186,7 @@
 | [0076-minimum-window-substring](https://github.com/kd2636/leetcode-sol/tree/master/0076-minimum-window-substring) |
 | [0146-lru-cache](https://github.com/kd2636/leetcode-sol/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/kd2636/leetcode-sol/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/kd2636/leetcode-sol/tree/master/0460-lfu-cache) |
@@ -309,6 +312,7 @@
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
+| [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kd2636/leetcode-sol/tree/master/1034-subarrays-with-k-different-integers) |
 ## Bit Manipulation
 |  |
