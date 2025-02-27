@@ -38,6 +38,7 @@
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/kd2636/leetcode-sol/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/kd2636/leetcode-sol/tree/master/0485-max-consecutive-ones) |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
@@ -169,6 +170,7 @@
 | ------- |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
 ## Sorting
 |  |
@@ -219,10 +221,12 @@
 ## Binary Indexed Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Segment Tree
 |  |
 | ------- |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0673-number-of-longest-increasing-subsequence) |
 ## Stack
 |  |
@@ -331,4 +335,13 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0053-maximum-subarray) |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
+## Merge Sort
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
+## Ordered Set
+|  |
+| ------- |
+| [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
 <!---LeetCode Topics End-->
