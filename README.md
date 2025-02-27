@@ -23,6 +23,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kd2636/leetcode-sol/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kd2636/leetcode-sol/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
+| [0152-maximum-product-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0152-maximum-product-subarray) |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
@@ -79,6 +80,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kd2636/leetcode-sol/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0132-palindrome-partitioning-ii](https://github.com/kd2636/leetcode-sol/tree/master/0132-palindrome-partitioning-ii) |
+| [0152-maximum-product-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
