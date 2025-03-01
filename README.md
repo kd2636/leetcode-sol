@@ -19,6 +19,7 @@
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/kd2636/leetcode-sol/tree/master/0075-sort-colors) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/kd2636/leetcode-sol/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0118-pascals-triangle](https://github.com/kd2636/leetcode-sol/tree/master/0118-pascals-triangle) |
@@ -177,6 +178,7 @@
 | [0033-search-in-rotated-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/kd2636/leetcode-sol/tree/master/0035-search-insert-position) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/kd2636/leetcode-sol/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
 | [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
