@@ -50,6 +50,7 @@
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0518-coin-change-ii](https://github.com/kd2636/leetcode-sol/tree/master/0518-coin-change-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/kd2636/leetcode-sol/tree/master/0560-subarray-sum-equals-k) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/kd2636/leetcode-sol/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
@@ -186,6 +187,7 @@
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
 | [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0540-single-element-in-a-sorted-array) |
 | [0792-binary-search](https://github.com/kd2636/leetcode-sol/tree/master/0792-binary-search) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
 ## Sorting
