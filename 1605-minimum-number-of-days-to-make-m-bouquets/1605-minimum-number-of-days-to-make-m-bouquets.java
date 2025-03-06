@@ -1,7 +1,8 @@
 class Solution {
     public int minDays(int[] bloomDay, int m, int k) {
+        int max = findMax(bloomDay);
         int low = 1;
-        int high = (int)1e9;
+        int high = max;
 
         while (low <= high) {
             int mid = (low + high) / 2;
@@ -13,7 +14,7 @@ class Solution {
             }
         }
 
-        return low == (int)1e9 + 1 ? -1 : low;
+        return low == max + 1 ? -1 : low;
     }
 
 
@@ -36,5 +37,13 @@ class Solution {
         } else {
             return false;
         }
+    }
+
+    private int findMax(int[] bloomDay) {
+        int max = Integer.MIN_VALUE;
+        for (int num : bloomDay) {
+            max = Math.max(max, num);
+        }
+        return max;
     }
 }
