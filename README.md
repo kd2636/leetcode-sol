@@ -126,6 +126,7 @@
 |  |
 | ------- |
 | [0048-rotate-image](https://github.com/kd2636/leetcode-sol/tree/master/0048-rotate-image) |
+| [0050-powx-n](https://github.com/kd2636/leetcode-sol/tree/master/0050-powx-n) |
 | [0062-unique-paths](https://github.com/kd2636/leetcode-sol/tree/master/0062-unique-paths) |
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
@@ -187,6 +188,7 @@
 |  |
 | ------- |
 | [0044-wildcard-matching](https://github.com/kd2636/leetcode-sol/tree/master/0044-wildcard-matching) |
+| [0050-powx-n](https://github.com/kd2636/leetcode-sol/tree/master/0050-powx-n) |
 | [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
 ## Binary Search
 |  |
