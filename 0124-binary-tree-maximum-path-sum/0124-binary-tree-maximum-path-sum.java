@@ -29,13 +29,10 @@ class Solution {
         int rightMaxSum = maxLinearPathSum(root.right, max);
 
         // as numbers can be negative
-        int currSum = root.val;
-        if (leftMaxSum > 0) currSum = currSum + leftMaxSum;
-        if (rightMaxSum > 0) currSum = currSum + rightMaxSum;
-        max[0] = Math.max(max[0], currSum);
+        if (leftMaxSum < 0) leftMaxSum = 0;
+        if (rightMaxSum < 0) rightMaxSum = 0;
+        max[0] = Math.max(max[0], root.val + leftMaxSum + rightMaxSum);
 
-        // as numbers can be negative
-        int temp = Math.max(leftMaxSum, rightMaxSum);
-        return root.val + (temp > 0 ? temp : 0);
+        return root.val + Math.max(leftMaxSum, rightMaxSum);
     }
 }
