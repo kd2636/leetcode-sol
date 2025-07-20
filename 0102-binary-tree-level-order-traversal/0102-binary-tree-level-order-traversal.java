@@ -16,29 +16,20 @@
 class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> ans = new ArrayList<>();
-
-        if (root == null) return ans;
-        
-        List<TreeNode> level = new ArrayList<>();
-        level.add(root);
-
-        while(!level.isEmpty()) {
-            List<Integer> list = new ArrayList<>();
-            List<TreeNode> newLevel = new ArrayList<>();
-            for (int i = 0; i < level.size(); i++) {
-                list.add(level.get(i).val);
-
-                if (level.get(i).left != null) {
-                    newLevel.add(level.get(i).left);
-                }
-                if (level.get(i).right != null) {
-                    newLevel.add(level.get(i).right);
-                }
-            }
-            ans.add(list);
-            level = newLevel;
-        }
-
+        levelOrderHelper(root, 0, ans);
         return ans;
+    }
+
+    private void levelOrderHelper(TreeNode root, int level, List<List<Integer>> ans) {
+        if (root == null) return;
+
+        if (ans.size() == level) ans.add(new ArrayList<>());
+
+        // add root to ans
+        ans.get(level).add(root.val);
+
+        levelOrderHelper(root.left, level + 1, ans);
+        levelOrderHelper(root.right, level + 1, ans);
+
     }
 }
