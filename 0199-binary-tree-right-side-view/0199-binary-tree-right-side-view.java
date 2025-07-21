@@ -30,9 +30,9 @@ class Solution {
     private void preorder(TreeNode root, Map<Integer, Integer> map, int level) {
         if (root == null) return ;
 
-
+        map.put(level, root.val);
         preorder(root.left, map, level + 1);
         preorder(root.right, map, level + 1);
-        map.put(level, root.val);
+        
     }
 }
