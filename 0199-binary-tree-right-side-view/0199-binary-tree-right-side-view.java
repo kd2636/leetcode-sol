@@ -15,24 +15,22 @@
  */
 class Solution {
     public List<Integer> rightSideView(TreeNode root) {
-      Map<Integer, Integer> map = new HashMap<>();
-      preorder(root, map, 0);
-
       List<Integer> ans = new ArrayList<>();
-      for (int i = 0; i < map.size(); i++) {
-        ans.add(map.get(i));
-      }
+
+      helper(root, 0, ans);
 
       return ans;
     }
 
 
-    private void preorder(TreeNode root, Map<Integer, Integer> map, int level) {
+    private void helper(TreeNode root, int level, List<Integer> ans) {
         if (root == null) return ;
 
-        map.put(level, root.val);
-        preorder(root.left, map, level + 1);
-        preorder(root.right, map, level + 1);
-        
+        if (level == ans.size()) {
+            ans.add(root.val);
+        }
+
+        helper(root.right, level + 1, ans);
+        helper(root.left, level + 1, ans);
     }
 }
