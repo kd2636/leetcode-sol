@@ -159,6 +159,7 @@
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
 | ------- |
@@ -231,6 +232,7 @@
 | [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1669-minimum-cost-to-cut-a-stick](https://github.com/kd2636/leetcode-sol/tree/master/1669-minimum-cost-to-cut-a-stick) |
 ## Hash Table
@@ -250,6 +252,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/kd2636/leetcode-sol/tree/master/0560-subarray-sum-equals-k) |
 | [0940-fruit-into-baskets](https://github.com/kd2636/leetcode-sol/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/kd2636/leetcode-sol/tree/master/0966-binary-subarrays-with-sum) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kd2636/leetcode-sol/tree/master/1034-subarrays-with-k-different-integers) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
 | [1370-count-number-of-nice-subarrays](https://github.com/kd2636/leetcode-sol/tree/master/1370-count-number-of-nice-subarrays) |
@@ -407,6 +410,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -416,6 +420,7 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -427,4 +432,5 @@
 | [0144-binary-tree-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0145-binary-tree-postorder-traversal) |
 | [0543-diameter-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0543-diameter-of-binary-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
