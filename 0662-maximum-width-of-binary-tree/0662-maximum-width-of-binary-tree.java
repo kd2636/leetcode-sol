@@ -42,10 +42,10 @@ class Solution {
                 TreeNode curr = level.get(i).node;
                 int currIndex = level.get(i).index;
                 if (curr.left != null) {
-                    nextLevel.add(new Pair(curr.left, (currIndex - minIndex) * 2));
+                    nextLevel.add(new Pair(curr.left, (currIndex) * 2));
                 }
                 if (curr.right != null) {
-                    nextLevel.add(new Pair(curr.right, ((currIndex - minIndex) * 2) + 1));
+                    nextLevel.add(new Pair(curr.right, ((currIndex) * 2) + 1));
                 }
             }
 
