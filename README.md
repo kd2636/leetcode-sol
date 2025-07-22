@@ -161,6 +161,7 @@
 | [0104-maximum-depth-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0199-binary-tree-right-side-view](https://github.com/kd2636/leetcode-sol/tree/master/0199-binary-tree-right-side-view) |
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Backtracking
 |  |
@@ -415,6 +416,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/kd2636/leetcode-sol/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Depth-First Search
 |  |
@@ -428,6 +430,7 @@
 | [0199-binary-tree-right-side-view](https://github.com/kd2636/leetcode-sol/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 ## Binary Tree
 |  |
@@ -443,5 +446,6 @@
 | [0199-binary-tree-right-side-view](https://github.com/kd2636/leetcode-sol/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0543-diameter-of-binary-tree) |
+| [0662-maximum-width-of-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0662-maximum-width-of-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 <!---LeetCode Topics End-->
