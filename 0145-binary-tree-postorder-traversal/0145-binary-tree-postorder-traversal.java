@@ -41,10 +41,7 @@ class Solution {
             }
         }
 
-        List<Integer> postorder = new ArrayList<>();
-        for (int i = postorderInverse.size() - 1; i >= 0; i--) {
-            postorder.add(postorderInverse.get(i));
-        }
-        return postorder;
+        Collections.reverse(postorderInverse);
+        return postorderInverse;
     }
 }
