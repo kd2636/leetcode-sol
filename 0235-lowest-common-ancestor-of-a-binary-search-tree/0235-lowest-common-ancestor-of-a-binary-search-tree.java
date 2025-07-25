@@ -12,21 +12,18 @@ class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if (p == null || q == null || root == null) return null;
 
-        TreeNode lca = null;
+        return helper(root, p, q);
+    }
 
-        while (root != null) {
-            if ((p.val <= root.val && q.val >= root.val) || (p.val >= root.val && q.val <= root.val)) {
-                lca = root;
-                break;
-            } 
+    private TreeNode helper(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) return null;
 
-            if (p.val < root.val) {
-                root = root.left;
-            } else {
-                root = root.right;
-            }
+        if (p.val > root.val && q.val > root.val) {
+            return helper(root.right, p, q);
         }
-
-        return lca;
+        if (p.val < root.val && q.val < root.val) {
+            return helper(root.left, p, q);
+        }
+        return root;
     }
 }
