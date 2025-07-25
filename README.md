@@ -69,6 +69,7 @@
 | [0967-minimum-falling-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0967-minimum-falling-path-sum) |
 | [1034-subarrays-with-k-different-integers](https://github.com/kd2636/leetcode-sol/tree/master/1034-subarrays-with-k-different-integers) |
 | [1046-max-consecutive-ones-iii](https://github.com/kd2636/leetcode-sol/tree/master/1046-max-consecutive-ones-iii) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/kd2636/leetcode-sol/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1121-partition-array-for-maximum-sum](https://github.com/kd2636/leetcode-sol/tree/master/1121-partition-array-for-maximum-sum) |
 | [1129-longest-string-chain](https://github.com/kd2636/leetcode-sol/tree/master/1129-longest-string-chain) |
@@ -308,6 +309,7 @@
 | [0735-asteroid-collision](https://github.com/kd2636/leetcode-sol/tree/master/0735-asteroid-collision) |
 | [0937-online-stock-span](https://github.com/kd2636/leetcode-sol/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/kd2636/leetcode-sol/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [1197-parsing-a-boolean-expression](https://github.com/kd2636/leetcode-sol/tree/master/1197-parsing-a-boolean-expression) |
 | [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 ## Design
@@ -336,6 +338,7 @@
 | [0503-next-greater-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0503-next-greater-element-ii) |
 | [0937-online-stock-span](https://github.com/kd2636/leetcode-sol/tree/master/0937-online-stock-span) |
 | [0943-sum-of-subarray-minimums](https://github.com/kd2636/leetcode-sol/tree/master/0943-sum-of-subarray-minimums) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 | [2227-sum-of-subarray-ranges](https://github.com/kd2636/leetcode-sol/tree/master/2227-sum-of-subarray-ranges) |
 ## Simulation
 |  |
@@ -444,6 +447,7 @@
 | [0784-insert-into-a-binary-search-tree](https://github.com/kd2636/leetcode-sol/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -492,6 +496,7 @@
 | [0784-insert-into-a-binary-search-tree](https://github.com/kd2636/leetcode-sol/tree/master/0784-insert-into-a-binary-search-tree) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -501,4 +506,5 @@
 | [0450-delete-node-in-a-bst](https://github.com/kd2636/leetcode-sol/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/kd2636/leetcode-sol/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/kd2636/leetcode-sol/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
 <!---LeetCode Topics End-->
