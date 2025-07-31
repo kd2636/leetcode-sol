@@ -50,6 +50,7 @@
 | [0322-coin-change](https://github.com/kd2636/leetcode-sol/tree/master/0322-coin-change) |
 | [0368-largest-divisible-subset](https://github.com/kd2636/leetcode-sol/tree/master/0368-largest-divisible-subset) |
 | [0416-partition-equal-subset-sum](https://github.com/kd2636/leetcode-sol/tree/master/0416-partition-equal-subset-sum) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/kd2636/leetcode-sol/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/kd2636/leetcode-sol/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/kd2636/leetcode-sol/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
@@ -261,6 +262,7 @@
 | [0208-implement-trie-prefix-tree](https://github.com/kd2636/leetcode-sol/tree/master/0208-implement-trie-prefix-tree) |
 | [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/kd2636/leetcode-sol/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [0424-longest-repeating-character-replacement](https://github.com/kd2636/leetcode-sol/tree/master/0424-longest-repeating-character-replacement) |
 | [0460-lfu-cache](https://github.com/kd2636/leetcode-sol/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/kd2636/leetcode-sol/tree/master/0496-next-greater-element-i) |
@@ -409,6 +411,7 @@
 | ------- |
 | [0222-count-complete-tree-nodes](https://github.com/kd2636/leetcode-sol/tree/master/0222-count-complete-tree-nodes) |
 | [0268-missing-number](https://github.com/kd2636/leetcode-sol/tree/master/0268-missing-number) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/kd2636/leetcode-sol/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -534,4 +537,5 @@
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/kd2636/leetcode-sol/tree/master/0208-implement-trie-prefix-tree) |
+| [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/kd2636/leetcode-sol/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 <!---LeetCode Topics End-->
