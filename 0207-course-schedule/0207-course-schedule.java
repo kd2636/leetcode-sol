@@ -22,32 +22,31 @@ class Solution {
 
     private boolean hasCycle(List<List<Integer>> graph) {
         int n = graph.size();
-        Set<Integer> visited = new HashSet<>();
-        Set<Integer> pathVisited = new HashSet<>();
-
+        
+        int[] indegree = new int[n];
         for (int i = 0; i < n; i++) {
-            if (!visited.contains(i)) {
-                boolean isCyclic = dfs(i, graph, visited, pathVisited);
-                if (isCyclic == true) return true;
-            }
-        }
-        return false;
-    }
-
-    private boolean dfs(int node, List<List<Integer>> graph, Set<Integer> visited, Set<Integer> pathVisited) {
-        visited.add(node);
-        pathVisited.add(node);
-
-        for (int adj : graph.get(node)) {
-            if (!visited.contains(adj)) {
-                boolean isCyclic = dfs(adj, graph, visited, pathVisited);
-                if (isCyclic == true) return true;
-            } else if (pathVisited.contains(adj)) {
-                return true;
+            for (int node : graph.get(i)) {
+                indegree[node]++;
             }
         }
 
-        pathVisited.remove(node);
+        int count = 0;
+        Queue<Integer> q = new LinkedList<>();
+        for (int i = 0; i < n; i++) {
+            if (indegree[i] == 0) q.add(i);
+        }
+
+        while (!q.isEmpty()) {
+            int node = q.remove();
+            count++;
+            for (int adj : graph.get(node)) {
+                indegree[adj]--;
+                if (indegree[adj] == 0) q.add(adj);
+            }
+        }
+
+        if (count < n) return true;
         return false;
+
     }
 }
