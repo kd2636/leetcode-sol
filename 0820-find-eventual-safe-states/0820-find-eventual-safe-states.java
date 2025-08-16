@@ -2,33 +2,43 @@ class Solution {
     public List<Integer> eventualSafeNodes(int[][] graph) {
         int n = graph.length;
         List<Integer> ans = new ArrayList<>();
-        Set<Integer> visited = new HashSet<>();
-        Set<Integer> pathVisited = new HashSet<>();
+        List<List<Integer>> g = new ArrayList<>();
+
         for (int i = 0; i < n; i++) {
-            if (!visited.contains(i)) {
-                dfs(i, graph, visited, pathVisited, ans);
+            g.add(new ArrayList<>());
+        }
+
+        // reversing graph
+        for (int i = 0; i < n; i++) {
+            for (int node : graph[i]) {
+                g.get(node).add(i);
+            }
+        }
+
+        int[] indegree = new int[n];
+        for (int i = 0; i < n; i++) {
+            for (int adj : g.get(i)) {
+                indegree[adj]++;
+            }
+        }
+
+        Queue<Integer> q = new LinkedList<>();
+
+        for (int i = 0; i < n; i++) {
+            if (indegree[i] == 0) q.add(i);
+        }
+
+        while (!q.isEmpty()) {
+            int node = q.remove();
+            ans.add(node);
+
+            for (int adj : g.get(node)) {
+                indegree[adj]--;
+                if (indegree[adj] == 0) q.add(adj);
             }
         }
 
         Collections.sort(ans);
         return ans;
-    }
-
-    private boolean dfs(int node, int[][] graph, Set<Integer> visited, Set<Integer> pathVisited, List<Integer> ans) {
-        visited.add(node);
-        pathVisited.add(node);
-
-        for (int adj : graph[node]) {
-            if (!visited.contains(adj)) {
-                boolean isCyclic = dfs(adj, graph, visited, pathVisited, ans);
-                if (isCyclic) return true;
-            } else if (pathVisited.contains(adj)) {
-                return true;
-            }
-        }
-
-        ans.add(node);
-        pathVisited.remove(node);
-        return false;
     }
 }
