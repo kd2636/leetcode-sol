@@ -114,6 +114,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kd2636/leetcode-sol/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/kd2636/leetcode-sol/tree/master/0132-palindrome-partitioning-ii) |
 | [0152-maximum-product-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
@@ -208,6 +209,7 @@
 | [0046-permutations](https://github.com/kd2636/leetcode-sol/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/kd2636/leetcode-sol/tree/master/0047-permutations-ii) |
 | [0090-subsets-ii](https://github.com/kd2636/leetcode-sol/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/kd2636/leetcode-sol/tree/master/0216-combination-sum-iii) |
 | [0494-target-sum](https://github.com/kd2636/leetcode-sol/tree/master/0494-target-sum) |
 ## String
@@ -220,6 +222,7 @@
 | [0076-minimum-window-substring](https://github.com/kd2636/leetcode-sol/tree/master/0076-minimum-window-substring) |
 | [0115-distinct-subsequences](https://github.com/kd2636/leetcode-sol/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/kd2636/leetcode-sol/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/kd2636/leetcode-sol/tree/master/0132-palindrome-partitioning-ii) |
 | [0208-implement-trie-prefix-tree](https://github.com/kd2636/leetcode-sol/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0297-serialize-and-deserialize-binary-tree) |
