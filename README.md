@@ -37,6 +37,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/kd2636/leetcode-sol/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/kd2636/leetcode-sol/tree/master/0123-best-time-to-buy-and-sell-stock-iii) |
 | [0130-surrounded-regions](https://github.com/kd2636/leetcode-sol/tree/master/0130-surrounded-regions) |
+| [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0152-maximum-product-subarray) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/kd2636/leetcode-sol/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0154-find-minimum-in-rotated-sorted-array-ii](https://github.com/kd2636/leetcode-sol/tree/master/0154-find-minimum-in-rotated-sorted-array-ii) |
@@ -116,6 +117,7 @@
 | [0124-binary-tree-maximum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/kd2636/leetcode-sol/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
@@ -224,6 +226,7 @@
 | [0127-word-ladder](https://github.com/kd2636/leetcode-sol/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/kd2636/leetcode-sol/tree/master/0132-palindrome-partitioning-ii) |
+| [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/kd2636/leetcode-sol/tree/master/0208-implement-trie-prefix-tree) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/kd2636/leetcode-sol/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0402-remove-k-digits](https://github.com/kd2636/leetcode-sol/tree/master/0402-remove-k-digits) |
@@ -301,6 +304,7 @@
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/kd2636/leetcode-sol/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/kd2636/leetcode-sol/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/kd2636/leetcode-sol/tree/master/0208-implement-trie-prefix-tree) |
@@ -590,6 +594,7 @@
 ## Trie
 |  |
 | ------- |
+| [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/kd2636/leetcode-sol/tree/master/0208-implement-trie-prefix-tree) |
 | [0421-maximum-xor-of-two-numbers-in-an-array](https://github.com/kd2636/leetcode-sol/tree/master/0421-maximum-xor-of-two-numbers-in-an-array) |
 | [1826-maximum-xor-with-an-element-from-array](https://github.com/kd2636/leetcode-sol/tree/master/1826-maximum-xor-with-an-element-from-array) |
@@ -614,4 +619,8 @@
 | [0207-course-schedule](https://github.com/kd2636/leetcode-sol/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/kd2636/leetcode-sol/tree/master/0210-course-schedule-ii) |
 | [0820-find-eventual-safe-states](https://github.com/kd2636/leetcode-sol/tree/master/0820-find-eventual-safe-states) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
