@@ -46,6 +46,7 @@
 | [0169-majority-element](https://github.com/kd2636/leetcode-sol/tree/master/0169-majority-element) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0189-rotate-array](https://github.com/kd2636/leetcode-sol/tree/master/0189-rotate-array) |
+| [0198-house-robber](https://github.com/kd2636/leetcode-sol/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
 | [0216-combination-sum-iii](https://github.com/kd2636/leetcode-sol/tree/master/0216-combination-sum-iii) |
 | [0229-majority-element-ii](https://github.com/kd2636/leetcode-sol/tree/master/0229-majority-element-ii) |
@@ -122,6 +123,7 @@
 | [0139-word-break](https://github.com/kd2636/leetcode-sol/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/kd2636/leetcode-sol/tree/master/0152-maximum-product-subarray) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/kd2636/leetcode-sol/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
+| [0198-house-robber](https://github.com/kd2636/leetcode-sol/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/kd2636/leetcode-sol/tree/master/0213-house-robber-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/kd2636/leetcode-sol/tree/master/0300-longest-increasing-subsequence) |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/kd2636/leetcode-sol/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
