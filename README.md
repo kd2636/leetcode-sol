@@ -25,6 +25,7 @@
 | [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/kd2636/leetcode-sol/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/kd2636/leetcode-sol/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/kd2636/leetcode-sol/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/kd2636/leetcode-sol/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
@@ -166,6 +167,7 @@
 | [0064-minimum-path-sum](https://github.com/kd2636/leetcode-sol/tree/master/0064-minimum-path-sum) |
 | [0073-set-matrix-zeroes](https://github.com/kd2636/leetcode-sol/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/kd2636/leetcode-sol/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/kd2636/leetcode-sol/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0130-surrounded-regions](https://github.com/kd2636/leetcode-sol/tree/master/0130-surrounded-regions) |
 | [0240-search-a-2d-matrix-ii](https://github.com/kd2636/leetcode-sol/tree/master/0240-search-a-2d-matrix-ii) |
@@ -210,6 +212,7 @@
 | [0040-combination-sum-ii](https://github.com/kd2636/leetcode-sol/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/kd2636/leetcode-sol/tree/master/0046-permutations) |
 | [0047-permutations-ii](https://github.com/kd2636/leetcode-sol/tree/master/0047-permutations-ii) |
+| [0079-word-search](https://github.com/kd2636/leetcode-sol/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/kd2636/leetcode-sol/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/kd2636/leetcode-sol/tree/master/0216-combination-sum-iii) |
@@ -222,6 +225,7 @@
 | [0044-wildcard-matching](https://github.com/kd2636/leetcode-sol/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/kd2636/leetcode-sol/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/kd2636/leetcode-sol/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/kd2636/leetcode-sol/tree/master/0079-word-search) |
 | [0115-distinct-subsequences](https://github.com/kd2636/leetcode-sol/tree/master/0115-distinct-subsequences) |
 | [0127-word-ladder](https://github.com/kd2636/leetcode-sol/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/kd2636/leetcode-sol/tree/master/0131-palindrome-partitioning) |
@@ -515,6 +519,7 @@
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/kd2636/leetcode-sol/tree/master/0079-word-search) |
 | [0094-binary-tree-inorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0094-binary-tree-inorder-traversal) |
 | [0098-validate-binary-search-tree](https://github.com/kd2636/leetcode-sol/tree/master/0098-validate-binary-search-tree) |
 | [0099-recover-binary-search-tree](https://github.com/kd2636/leetcode-sol/tree/master/0099-recover-binary-search-tree) |
