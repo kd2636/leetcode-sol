@@ -1,31 +1,25 @@
 class Solution {
     public int rob(int[] nums) {
-        // 0 : prev not robbed
-        // 1 : prev robbed
-        Integer[][] dp = new Integer[nums.length][2];
+        int n = nums.length;
+        Integer[] dp = new Integer[nums.length];
 
-        return helper(nums, nums.length - 1, 0, dp);
+        // f(i) : 0 to n
+        return f(nums, nums.length - 1, dp);
     }
 
-    private int helper(int[] nums, int ind, int r, Integer[][] dp) {
-        if (ind == 0) {
-            if (r == 0) return nums[0];
+    private int f(int[] nums, int i, Integer[] dp) {
+        if (i == 0) {
+            return nums[0];
+        }
+        if (i < 0) {
             return 0;
         }
 
-        if (dp[ind][r] != null) return dp[ind][r];
+        if (dp[i] != null) return dp[i];
 
-        int max = Integer.MIN_VALUE;
-        if (r == 1) {
-            int a = helper(nums, ind - 1, 0, dp);
-            max = Math.max(max, a);
-        } else {
-            int a = nums[ind] + helper(nums, ind - 1, 1, dp);
-            int b = helper(nums, ind - 1, 0, dp);
-            max = Math.max(max, a);
-            max = Math.max(max, b);
-        }
+        int pick = nums[i] + f(nums, i - 2, dp);
+        int notPick = f(nums, i - 1, dp);
 
-        return dp[ind][r] = max;
+        return dp[i] = Math.max(pick, notPick);
     }
 }
