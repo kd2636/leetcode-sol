@@ -1,25 +1,14 @@
 class Solution {
     public int rob(int[] nums) {
         int n = nums.length;
-        Integer[] dp = new Integer[nums.length];
+        Integer[] dp = new Integer[n + 1];
+        dp[0] = nums[0];
+        for (int i = 1; i < n; i++) {
+            int pick = nums[i] + (i > 1 ? dp[i - 2] : 0);
+            int notPick = dp[i - 1];
 
-        // f(i) : 0 to n
-        return f(nums, nums.length - 1, dp);
-    }
-
-    private int f(int[] nums, int i, Integer[] dp) {
-        if (i == 0) {
-            return nums[0];
+            dp[i] = Math.max(pick, notPick);
         }
-        if (i < 0) {
-            return 0;
-        }
-
-        if (dp[i] != null) return dp[i];
-
-        int pick = nums[i] + f(nums, i - 2, dp);
-        int notPick = f(nums, i - 1, dp);
-
-        return dp[i] = Math.max(pick, notPick);
+        return dp[n - 1];
     }
 }
