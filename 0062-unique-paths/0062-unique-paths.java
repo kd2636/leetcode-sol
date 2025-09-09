@@ -1,18 +1,18 @@
 class Solution {
     public int uniquePaths(int m, int n) {
         Integer[][] dp = new Integer[m][n];
-        return f(m - 1, n - 1, dp);
-    }
-
-    private int f(int r, int c, Integer[][] dp) {
-        if (r == 0) {
-            return 1;
+        for (int i = 0; i < m; i++) {
+            dp[i][0] = 1;
         }
-        if (c == 0) {
-            return 1;
+        for (int i = 0; i < n; i++) {
+            dp[0][i] = 1;
         }
-        if (dp[r][c] != null) return dp[r][c];
 
-        return dp[r][c] = f(r - 1, c, dp) + f (r, c - 1, dp);
+        for (int i = 1; i < m; i++) {
+            for (int j = 1; j < n; j++) {
+                dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+            }
+        }
+        return dp[m - 1][n - 1];
     }
 }
