@@ -1,47 +1,31 @@
 class Solution {
     public boolean canPartition(int[] nums) {
-        int n = nums.length;
         int sum = 0;
-        for (int i = 0; i < n; i++) {
-            sum = sum + nums[i];
+        for (int num : nums) {
+            sum = sum + num;
         }
+        if (sum % 2 != 0) return false;
+        int target = sum / 2;
 
-        if (sum % 2 != 0) {
-            return false;
-        }
-
-        int k = sum / 2;
-        return isSubsetSumTarget(nums, k);
+        Boolean[][] dp = new Boolean[nums.length][target + 1];
+        return f(nums, nums.length - 1, target, dp);
     }
 
-    private boolean isSubsetSumTarget(int[] nums, int k) {
-        int n = nums.length;
-        // dp[i][j] -> store if there is a subset with sum j from 0 to i
-        boolean[] prev = new boolean[k + 1];
-        boolean[] curr = new boolean[k + 1];
-        if (nums[0] <= k) {
-            prev[nums[0]] = true;
+    private boolean f(int[] nums, int i, int target, Boolean[][] dp) {
+        if (target == 0) {
+            return true;
+        }
+        if (i == 0) {
+            return nums[i] == target;
         }
 
-        for (int i = 1; i < n; i++) {
-            curr[0] = true;
-            for (int target = 1; target <= k; target++) {
-                // not take
-                if (prev[target]) {
-                    curr[target] = true;
-                } else if (nums[i] <= target && prev[target - nums[i]]) {
-                    curr[target] = prev[target - nums[i]];
-                } else {
-                    curr[target] = false;
-                }
-            }
-            boolean[] temp = null;
-            temp = prev;
-            prev = curr;
-            curr = temp;
-        }
+        if (dp[i][target] != null) return dp[i][target];
 
-        return prev[k];
-        
+        boolean notTake = f(nums, i - 1, target, dp);
+        boolean take = false;
+        if (nums[i] <= target) {
+            take = f(nums, i - 1, target - nums[i], dp);
+        }
+        return dp[i][target] = take | notTake;
     }
 }
