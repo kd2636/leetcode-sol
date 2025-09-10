@@ -5,21 +5,26 @@ class Solution {
         int n = grid[0].length;
 
         Integer[][] dp = new Integer[m][n];
+        dp[0][0] = grid[0][0];
 
-        return f(grid, m - 1, n - 1, dp);
-    }
-
-    private int f(int[][] grid, int r, int c, Integer[][] dp) {
-        if (r == 0 && c == 0) {
-            return grid[r][c];
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (i == 0 && j == 0) {
+                    dp[i][j] = grid[i][j];
+                } else {
+                    int up = Integer.MAX_VALUE;
+                    int left = Integer.MAX_VALUE;
+                    if (i > 0) {
+                       up = dp[i - 1][j]; 
+                    }
+                    if (j > 0) {
+                        left = dp[i][j - 1];
+                    }
+                    dp[i][j] = grid[i][j] + Math.min(up, left);
+                }
+            }
         }
 
-        if (r < 0 || c < 0) {
-            return Integer.MAX_VALUE;
-        }
-
-        if (dp[r][c] != null) return dp[r][c];
-
-        return dp[r][c] = grid[r][c] + Math.min(f(grid, r - 1, c, dp), f(grid, r, c - 1, dp));
+        return dp[m - 1][n - 1];
     }
 }
