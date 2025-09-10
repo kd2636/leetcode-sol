@@ -1,35 +1,33 @@
 class Solution {
     public int minFallingPathSum(int[][] matrix) {
-        int n = matrix.length;
-        // dp[i][j] -> stores minimum falling sum from 1st row till (i, j)
-        Integer[] dp = new Integer[n];
         int min = Integer.MAX_VALUE;
-        for (int i = 0; i < n; i++) {
-            dp[i] = matrix[0][i];
-            min = Math.min(min, dp[i]);
-        }
-
-        if (n == 1) return min;
-        else min = Integer.MAX_VALUE;
-        
-        int temp = Integer.MAX_VALUE;
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                int topLeft = Integer.MAX_VALUE;
-                int topRight = Integer.MAX_VALUE;
-                if (j - 1 >= 0) {
-                    topLeft = temp;
-                }
-                if (j + 1 < n) {
-                    topRight = dp[j + 1];
-                }
-                temp = dp[j];
-                dp[j] = matrix[i][j] + Math.min(topLeft, Math.min(dp[j], topRight));
-                if (i == n - 1) {
-                    min = Math.min(min, dp[j]);
-                }
-            }
+        Integer[][] dp = new Integer[matrix.length][matrix.length];
+        for (int i = 0; i < matrix.length; i++) {
+            min = Math.min(min, f(matrix, 0, i, dp));
         }
         return min;
+    }
+
+    // f(r, c) : r,c to last
+    private int f(int[][] matrix, int r, int c, Integer[][] dp) {
+        if (r == matrix.length - 1) {
+            return matrix[r][c];
+        }
+
+        if (dp[r][c] != null ) return dp[r][c];
+
+
+        int left = Integer.MAX_VALUE;
+        int center = f(matrix, r + 1, c, dp);
+        int right = Integer.MAX_VALUE;
+
+        if (c > 0) {
+            left = f(matrix, r + 1, c - 1, dp);
+        }
+        if (c < matrix.length - 1) {
+            right = f(matrix, r + 1, c + 1, dp);
+        }
+
+        return dp[r][c] = matrix[r][c] + Math.min(left, Math.min(center, right));
     }
 }
