@@ -1,40 +1,20 @@
 class Solution {
-
-    /**
-     * 2
-     * 3 4
-     * 6 5 7
-     * 8 9 10 11
-     *   
-     */
     public int minimumTotal(List<List<Integer>> triangle) {
-        int n = triangle.size();
-        // dp[i][j] -> stores minimum path sum from (i, j) to last row;
-        int[] dp = new int[n];
-
-        // base case initialization
-        for (int i = 0; i < n; i++) {
-            dp[i] = triangle.get(n - 1).get(i);
-        }
-
-        for (int i = n - 2; i >= 0; i--) {
-            for (int j = 0; j <= i; j++) {
-                int d = dp[j];
-                int dr = dp[j + 1];
-                dp[j] = triangle.get(i).get(j) + Math.min(d, dr);
-            }
-        }
-        return dp[0];
+        //f (r, c) : r,c to last row
+        Integer[][] dp = new Integer[triangle.size()][triangle.size()];
+        return f(triangle, 0, 0, dp);
     }
 
-    // f(i, j) -> return min path sum from (i, j) to last row
-    private int f(int i, int j, List<List<Integer>> triangle, Integer[][] dp) {
-        if (i == triangle.size() - 1) {
-            return triangle.get(i).get(j);
+    private int f(List<List<Integer>> triangle, int r, int c, Integer[][] dp) {
+        if (r == triangle.size() - 1) {
+            return triangle.get(r).get(c);
         }
-        if (dp[i][j] != null) return dp[i][j];
-        int d = f(i + 1, j, triangle, dp);
-        int dr = f(i + 1, j + 1, triangle, dp);
-        return dp[i][j] = triangle.get(i).get(j) + Math.min(d, dr);
+
+        if (dp[r][c] != null) return dp[r][c];
+
+        int op1 = f(triangle, r + 1, c, dp);
+        int op2 = f(triangle, r + 1, c + 1, dp);
+
+        return dp[r][c] = triangle.get(r).get(c) + Math.min(op1, op2);
     }
 }
