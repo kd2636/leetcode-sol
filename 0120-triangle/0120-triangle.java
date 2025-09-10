@@ -1,20 +1,21 @@
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         //f (r, c) : r,c to last row
-        Integer[][] dp = new Integer[triangle.size()][triangle.size()];
-        return f(triangle, 0, 0, dp);
-    }
+        int n = triangle.size();
+        int[][] dp = new int[n][n];
 
-    private int f(List<List<Integer>> triangle, int r, int c, Integer[][] dp) {
-        if (r == triangle.size() - 1) {
-            return triangle.get(r).get(c);
+        for (int i = 0; i < n; i++) {
+            dp[n - 1][i] = triangle.get(n-1).get(i);
         }
 
-        if (dp[r][c] != null) return dp[r][c];
-
-        int op1 = f(triangle, r + 1, c, dp);
-        int op2 = f(triangle, r + 1, c + 1, dp);
-
-        return dp[r][c] = triangle.get(r).get(c) + Math.min(op1, op2);
+        for (int i = n - 2; i >= 0; i--) {
+            for (int j = 0; j <= i; j++) {
+                int op1 = dp[i + 1][j];
+                int op2 = dp[i + 1][j + 1];
+                dp[i][j] = triangle.get(i).get(j) + Math.min(op1, op2);
+            }
+        }
+        return dp[0][0];
     }
+    
 }
