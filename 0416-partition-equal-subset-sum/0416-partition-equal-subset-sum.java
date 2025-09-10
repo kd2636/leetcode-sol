@@ -7,25 +7,26 @@ class Solution {
         if (sum % 2 != 0) return false;
         int target = sum / 2;
 
-        Boolean[][] dp = new Boolean[nums.length][target + 1];
-        return f(nums, nums.length - 1, target, dp);
+        boolean[][] dp = new boolean[nums.length][target + 1];
+        for (int i = 0; i < nums.length; i++) {
+            dp[i][0] = true;
+        }
+        if (nums[0] <= target) {
+            dp[0][nums[0]] = true;
+        }
+
+        for (int i = 1; i < nums.length; i++) {
+            for (int j = 1; j <= target; j++) {
+                boolean notTake = dp[i - 1][j];
+                boolean take = false;
+                if (nums[i] <= j) {
+                    take = dp[i - 1][j - nums[i]];
+                }
+                dp[i][j] = take | notTake;
+            }
+        }
+
+        return dp[nums.length - 1][target];
     }
 
-    private boolean f(int[] nums, int i, int target, Boolean[][] dp) {
-        if (target == 0) {
-            return true;
-        }
-        if (i == 0) {
-            return nums[i] == target;
-        }
-
-        if (dp[i][target] != null) return dp[i][target];
-
-        boolean notTake = f(nums, i - 1, target, dp);
-        boolean take = false;
-        if (nums[i] <= target) {
-            take = f(nums, i - 1, target - nums[i], dp);
-        }
-        return dp[i][target] = take | notTake;
-    }
 }
