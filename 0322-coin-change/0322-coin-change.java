@@ -1,31 +1,29 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        int[] prev = new int[amount + 1];
+        int[] dp = new int[amount + 1];
         for (int i = 0; i <= amount; i++) {
-            prev[i] = Integer.MAX_VALUE;
+            dp[i] = Integer.MAX_VALUE;
         }
 
         for (int i = 1; i <= n; i++) {
-            int[] curr = new int[amount + 1];
-            curr[0] = 0;
+            dp[0] = 0;
             for (int amt = 1; amt <= amount; amt++) {
-                int notTake = prev[amt];
+                int notTake = dp[amt];
                 int take = Integer.MAX_VALUE;
                 if (coins[i - 1] <= amt) {
-                    take = curr[amt - coins[i - 1]];
+                    take = dp[amt - coins[i - 1]];
                     if (take != Integer.MAX_VALUE) {
                         take = 1 + take;
                     }
                 }
 
-                curr[amt] = Math.min(take, notTake);
+                dp[amt] = Math.min(take, notTake);
             }
-            prev = curr;
         }
 
 
-        int ans = prev[amount];
+        int ans = dp[amount];
         if (ans == Integer.MAX_VALUE) return -1;
         return ans;
     }
