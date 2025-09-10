@@ -1,8 +1,28 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        Integer[][] dp = new Integer[n][amount + 1];
-        int ans = f(n - 1, amount, coins, dp);
+        int[][] dp = new int[n + 1][amount + 1];
+        for (int i = 0; i <= amount; i++) {
+            dp[0][i] = Integer.MAX_VALUE;
+        }
+
+        for (int i = 1; i <= n; i++) {
+            for (int amt = 1; amt <= amount; amt++) {
+                int notTake = dp[i - 1][amt];
+                int take = Integer.MAX_VALUE;
+                if (coins[i - 1] <= amt) {
+                    take = dp[i][amt - coins[i - 1]];
+                    if (take != Integer.MAX_VALUE) {
+                        take = 1 + take;
+                    }
+                }
+
+                dp[i][amt] = Math.min(take, notTake);
+            }
+        }
+
+
+        int ans = dp[n][amount];
         if (ans == Integer.MAX_VALUE) return -1;
         return ans;
     }
