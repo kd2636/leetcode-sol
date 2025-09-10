@@ -1,39 +1,31 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
         int n = coins.length;
-        
-        int[] dp = new int[amount + 1];
+        Integer[][] dp = new Integer[n][amount + 1];
+        int ans = f(n - 1, amount, coins, dp);
+        if (ans == Integer.MAX_VALUE) return -1;
+        return ans;
+    }
 
-        for (int i = 0; i <= amount; i++) {
-            if (i % coins[0] == 0) dp[i] = i / coins[0];
-            else dp[i] = -1;
+    private int f(int i, int amt, int[] coins, Integer[][] dp) {
+        if (amt == 0) {
+            return 0;
+        }
+        if (i == -1) {
+            return Integer.MAX_VALUE;
         }
 
-        for (int i = 1; i < n; i++) {
-            for (int j = 0; j <= amount; j++) {
-                int np = dp[j];
+        if (dp[i][amt] != null) return dp[i][amt];
 
-                int p = -1;
-                if (coins[i] <= j) {
-                    p = dp[j - coins[i]];
-                }
-
-                int ans = 0;
-                if (np == -1 && p == -1) {
-                    ans = -1;
-                } else if (np == -1) {
-                    ans = 1 + p;
-                } else if (p == -1) {
-                    ans = np;
-                } else {
-                    ans = Math.min(1 + p, np);
-                }
-
-                dp[j] = ans;
+        int notTake = f(i - 1, amt, coins, dp);
+        int take = Integer.MAX_VALUE;
+        if (coins[i] <= amt) {
+            take = f(i, amt - coins[i], coins, dp);
+            if (take != Integer.MAX_VALUE) {
+                take = 1 + take;
             }
         }
 
-        return dp[amount];
+        return dp[i][amt] = Math.min(take, notTake);
     }
-
 }
