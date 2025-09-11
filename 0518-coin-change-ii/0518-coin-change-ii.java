@@ -1,26 +1,27 @@
 class Solution {
     public int change(int amount, int[] coins) {
         int n = coins.length;
-        Integer[][] dp = new Integer[n][amount + 1];
-        return f(n - 1, amount, coins, dp);
-    }
+        int[][] dp = new int[n][amount + 1];
 
-    private int f(int i, int amt, int[] coins, Integer[][] dp) {
-        if (i == 0) {
-           if (amt % coins[i] == 0) {
-            return 1;
-           } else {
-            return 0;
-           }
+        for (int amt = 0; amt <= amount; amt++) {
+            if (amt % coins[0] == 0) {
+                dp[0][amt] = 1;
+            } else {
+                dp[0][amt] = 0;
+            }
         }
 
-        if (dp[i][amt] != null) return dp[i][amt];
-
-        int notTake = f(i - 1, amt, coins, dp);
-        int take = 0;
-        if (coins[i] <= amt) {
-            take = f(i, amt - coins[i], coins, dp);
+        for (int i = 1; i < n; i++) {
+            for (int amt = 0; amt <= amount; amt++) {
+                int notTake = dp[i - 1][amt];
+                int take = 0;
+                if (coins[i] <= amt) {
+                    take = dp[i][amt - coins[i]];
+                }
+                dp[i][amt] = take + notTake;
+            }
         }
-        return dp[i][amt] = take + notTake;
+        return dp[n - 1][amount];
     }
+
 }
