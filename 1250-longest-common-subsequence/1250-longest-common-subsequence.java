@@ -3,23 +3,19 @@ class Solution {
         int l1 = text1.length();
         int l2 = text2.length();
 
-        Integer[][] dp = new Integer[l1][l2];
-        return lcs(text1, text1.length() - 1, text2, text2.length() - 1, dp);
-    }
+        int[][] dp = new int[l1 + 1][l2 + 1];
 
-    private int lcs(String s1, int i1, String s2, int i2, Integer[][] dp) {
-        if (i1 == -1 || i2 == -1) {
-            return 0;
+        for (int i1 = 1; i1 <= l1; i1++) {
+            for (int i2 = 1; i2 <= l2; i2++) {
+                int lcs = 0;
+                if (text1.charAt(i1 - 1) == text2.charAt(i2 - 1)) {
+                    lcs = 1 + dp[i1 - 1][i2 - 1];
+                } else {
+                    lcs = Math.max(dp[i1 - 1][i2], dp[i1][i2 - 1]);
+                }
+                dp[i1][i2] = lcs;
+            }
         }
-
-        if (dp[i1][i2] != null) return dp[i1][i2];
-
-        int lcs = 0;
-        if (s1.charAt(i1) == s2.charAt(i2)) {
-            lcs = 1 + lcs(s1, i1 - 1, s2, i2 - 1, dp);
-        } else {
-            lcs = Math.max(lcs(s1, i1 - 1, s2, i2, dp), lcs(s1, i1, s2, i2 - 1, dp));
-        }
-        return dp[i1][i2] = lcs;
+        return dp[l1][l2];
     }
 }
