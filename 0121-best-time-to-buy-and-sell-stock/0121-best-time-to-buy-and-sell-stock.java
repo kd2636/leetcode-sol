@@ -4,16 +4,14 @@ class Solution {
         // j as 0 : not bought anything
         // j as 1 : bought a stock, can sell only
         int n = prices.length;
-        int[] postfix = new int[n];
-        postfix[n - 1] = prices[n - 1];
-
-        for (int i = n - 2; i >= 0; i--) {
-            postfix[i] = Math.max(prices[i], postfix[i + 1]);
-        }
         int maxProfit = 0;
+        int minSoFar = prices[0];
+
         for (int i = 0; i < n; i++) {
-            maxProfit = Math.max(maxProfit, postfix[i] - prices[i]);
+            minSoFar = Math.min(minSoFar, prices[i]);
+            maxProfit = Math.max(maxProfit, prices[i] - minSoFar);
         }
+
         return maxProfit;
     }
 }
