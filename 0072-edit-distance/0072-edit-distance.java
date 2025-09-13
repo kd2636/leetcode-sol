@@ -3,26 +3,32 @@ class Solution {
         // f(i, j) -> return min operation to convert s1 (0 to i) to s2 (0 to j)
         int l1 = word1.length();
         int l2 = word2.length();
-        Integer[][] dp = new Integer[l1][l2];
-        return f(word1, l1 - 1, word2, l2 - 1, dp);
-    }
+        int[][] dp = new int[l1 + 1][l2 + 1];
 
-    private int f(String s1, int i, String s2, int j, Integer[][] dp) {
-        if (i < 0) return j + 1;
-        if (j < 0) return i + 1;
-
-        if (dp[i][j] != null) return dp[i][j];
-
-        int minOperations = 0;
-        if (s1.charAt(i) == s2.charAt(j)) {
-            minOperations = Math.min(f(s1, i - 1, s2, j - 1, dp), 1 + f(s1, i - 1, s2, j, dp));
-        } else {
-            int insert = 1 + f(s1, i, s2, j - 1, dp);
-            int delete = 1 + f(s1, i - 1, s2, j, dp);
-            int replace = 1 + f(s1, i - 1, s2, j - 1, dp);
-            minOperations = Math.min(insert, Math.min(delete, replace));
+        for (int i = 0; i <= l2; i++) {
+            dp[0][i] = i;
+        }
+        for (int i = 0; i <= l1; i++) {
+            dp[i][0] = i;
         }
 
-        return dp[i][j] = minOperations;
+        for (int i = 1; i <= l1; i++) {
+            for (int j = 1; j <= l2; j++) {
+                int minOperations = 0;
+                if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
+                    minOperations = Math.min(dp[i - 1][j - 1], 1 + dp[i - 1][j]);
+                } else {
+                    int insert = 1 + dp[i][j - 1];
+                    int delete = 1 + dp[i - 1][j];
+                    int replace = 1 + dp[i - 1][j - 1];
+                    minOperations = Math.min(insert, Math.min(delete, replace));
+                }
+                dp[i][j] = minOperations;
+            }
+        }
+
+
+        return dp[l1][l2];
     }
+
 }
