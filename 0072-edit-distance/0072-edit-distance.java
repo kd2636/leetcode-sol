@@ -15,7 +15,7 @@ class Solution {
             for (int j = 1; j <= l2; j++) {
                 int minOperations = 0;
                 if (word1.charAt(i - 1) == word2.charAt(j - 1)) {
-                    minOperations = Math.min(prev[j - 1], 1 + prev[j]);
+                    minOperations = prev[j - 1];
                 } else {
                     int insert = 1 + curr[j - 1];
                     int delete = 1 + prev[j];
