@@ -226,6 +226,7 @@
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/kd2636/leetcode-sol/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kd2636/leetcode-sol/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0020-valid-parentheses](https://github.com/kd2636/leetcode-sol/tree/master/0020-valid-parentheses) |
 | [0044-wildcard-matching](https://github.com/kd2636/leetcode-sol/tree/master/0044-wildcard-matching) |
 | [0072-edit-distance](https://github.com/kd2636/leetcode-sol/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/kd2636/leetcode-sol/tree/master/0076-minimum-window-substring) |
@@ -358,6 +359,7 @@
 ## Stack
 |  |
 | ------- |
+| [0020-valid-parentheses](https://github.com/kd2636/leetcode-sol/tree/master/0020-valid-parentheses) |
 | [0084-largest-rectangle-in-histogram](https://github.com/kd2636/leetcode-sol/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/kd2636/leetcode-sol/tree/master/0085-maximal-rectangle) |
 | [0094-binary-tree-inorder-traversal](https://github.com/kd2636/leetcode-sol/tree/master/0094-binary-tree-inorder-traversal) |
