@@ -14,22 +14,20 @@
  * }
  */
 class Solution {
+
+    private int max = Integer.MIN_VALUE;
     public int diameterOfBinaryTree(TreeNode root) {
-        // to pass by reference to height function
-        int[] max = new int[1];
-        max[0] = 0;
-        height(root, max);
-        return max[0];
+        max = Integer.MIN_VALUE;
+        helper(root);
+        return max - 1;
     }
 
-    private int height(TreeNode root, int[] max) {
+    private int helper(TreeNode root) {
         if (root == null) return 0;
 
-        int lh = height(root.left, max);
-        int rh = height(root.right, max);
-
-        max[0] = Math.max(max[0], (lh + rh));
-
-        return 1 + Math.max(lh, rh);
+        int leftHeight = helper(root.left);
+        int rightHeight = helper(root.right);
+        max = Math.max(max, 1 + leftHeight + rightHeight);
+        return 1 + Math.max(leftHeight, rightHeight);
     }
 }
